@@ -1,0 +1,11 @@
+name: 'Simple nodejs github action'
+description: ''
+author: 'devsecops team'
+inputs:
+  GITHUB_TOKEN:
+    description: 'Github token'
+    required: true
+
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
